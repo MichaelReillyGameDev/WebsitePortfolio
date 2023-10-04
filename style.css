@@ -468,6 +468,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	text-transform:none;
 	text-decoration:none;
 	font-size:20px;
+	background-image:url("img/Website%20Logo%202.svg");
+	background-size:cover;
 }
 .container-div-min-height{
 	min-height:104px;
@@ -520,7 +522,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:100%;
 }
 .btn-bloc-1-style{
-	width:38.8%;
+	width:27.27%;
 }
 .img-style{
 	width:533px;
@@ -530,6 +532,33 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .container-div-0-bloc-13-min-height{
 	min-height:128px;
+}
+.container-div-bloc-18-min-height{
+	min-height:211px;
+}
+.container-div-bloc-19-min-height{
+	min-height:89px;
+}
+.img-screenshot--style{
+	height:273px;
+	width:267px;
+}
+.img-16-style{
+	height:273px;
+}
+.img-19-style{
+	height:273px;
+}
+.img-21-style{
+	height:475px;
+}
+.img-20-style{
+	height:475px;
+}
+.link-company-style{
+	width:100%;
+	padding-top:30px;
+	padding-bottom:30px;
 }
 
 /* = Colour
