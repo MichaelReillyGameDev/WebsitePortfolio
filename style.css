@@ -111,6 +111,23 @@ nav .dropdown-menu .nav-link{color:rgba(0,0,0,0.6)!important;} /* Maintain Downd
 }
 
 
+/* Background Textures */
+
+.bloc-bg-texture::before{
+	content:"";
+	background-size: 2px 2px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left:0;
+	right:0;
+}
+.texture-geometry-shapes::before{
+	background: url("img/texture-geometry-shapes.png");
+	background-size: 280px 280px;
+}
+
+
 /* Light theme */
 
 .d-bloc .card,.l-bloc{
@@ -231,6 +248,9 @@ button{
 	outline: none!important;
 }
 
+.btn-sq{
+	border-radius: 0px;
+}
 .a-block{
 	width:100%;
 	text-align:left;
@@ -510,10 +530,10 @@ url("img/Logo%20Developer.webp") 2x);
 }
 .h3-style{
 	width:100%;
-	font-size:26px;
+	font-size:23px;
 }
 .h3-bloc-2-style{
-	font-size:26px;
+	font-size:23px;
 }
 .h1-style{
 	width:100%;
@@ -525,7 +545,7 @@ url("img/Logo%20Developer.webp") 2x);
 	width:100%;
 }
 .btn-bloc-1-style{
-	width:42.42%;
+	width:33.88%;
 }
 .img-style{
 	width:533px;
@@ -569,7 +589,7 @@ url("img/Logo%20Developer.webp") 2x);
 	font-weight:bold;
 }
 .purple-title-no-line{
-	color:#B26FEC!important;
+	color:#8627D8!important;
 	font-weight:bold;
 }
 .black-title{
@@ -580,8 +600,21 @@ url("img/Logo%20Developer.webp") 2x);
 	padding-bottom:18px;
 }
 .h2-plane-repair-style{
-	line-height:36px;
-	font-size:30px;
+	line-height:35px;
+	font-size:28px;
+	width:100%;
+}
+.h4-style{
+	font-size:21px;
+}
+.h4-bloc-2-style{
+	font-size:21px;
+}
+.purple-button{
+	background-color:#8627D8;
+}
+.purple-button:hover{
+	background-color:#9B54D7;
 }
 
 /* = Colour
@@ -598,15 +631,19 @@ url("img/Logo%20Developer.webp") 2x);
 	
 	--swatch-var-6729:#BF9BDE;
 	
+	--swatch-var-3209:#BF9B13;
+	
 }
 
 
+/* Background colour styles */
+
+.bgc-1314{
+	background-color:var(--swatch-var-1314);
+}
 
 /* Text colour styles */
 
-.tc-1314{
-	color:var(--swatch-var-1314)!important;
-}
 .tc-2869{
 	color:var(--swatch-var-2869)!important;
 }
@@ -663,7 +700,7 @@ img {
 }
 
 .purple-title {
-  -webkit-text-stroke: 0.75px black;
+  -webkit-text-stroke: 0.66px black;
 }
 
 
@@ -761,6 +798,26 @@ img {
 	.mt-md-0{
 	}
 	.mt-md-4{
+	}
+	.btn-bloc-1-style{
+		width:21.04%;
+	}
+	.h4-style{
+		font-size:17px;
+	}
+	.h4-bloc-2-style{
+		font-size:17px;
+	}
+	.navbar-logo{
+		background-size:contain;
+		background-repeat:no-repeat;
+	}
+	
+}
+
+@media (max-width: 767px){
+	.btn-bloc-1-style{
+		width:25%;
 	}
 	
 }
