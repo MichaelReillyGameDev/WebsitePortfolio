@@ -231,9 +231,6 @@ button{
 	outline: none!important;
 }
 
-.btn-rd{
-	border-radius: 40px;
-}
 .a-block{
 	width:100%;
 	text-align:left;
@@ -468,8 +465,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	text-transform:none;
 	text-decoration:none;
 	font-size:20px;
-	background-image:url("img/Website%20Logo%202.svg");
 	background-size:cover;
+	background-image:url("img/Logo%20Developer.png");
+	background-image: -webkit-image-set(url("img/Logo%20Developer.webp") 1x,
+url("img/Logo%20Developer.webp") 2x);background-image: image-set(url("img/Logo%20Developer.png") 1x,
+url("img/Logo%20Developer.png") 2x,url("img/Logo%20Developer.webp") 1x,
+url("img/Logo%20Developer.webp") 2x);
+	height:auto;
+	width:100%;
 }
 .container-div-min-height{
 	min-height:104px;
@@ -522,7 +525,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:100%;
 }
 .btn-bloc-1-style{
-	width:27.27%;
+	width:42.42%;
 }
 .img-style{
 	width:533px;
@@ -556,9 +559,29 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	height:475px;
 }
 .link-company-style{
-	width:100%;
 	padding-top:30px;
 	padding-bottom:30px;
+	width:100%;
+	height:auto;
+}
+.purple-title{
+	color:#BF9BDE!important;
+	font-weight:bold;
+}
+.purple-title-no-line{
+	color:#B26FEC!important;
+	font-weight:bold;
+}
+.black-title{
+	color:#020202!important;
+}
+.link-padding-top{
+	padding-top:18px;
+	padding-bottom:18px;
+}
+.h2-plane-repair-style{
+	line-height:36px;
+	font-size:30px;
 }
 
 /* = Colour
@@ -573,6 +596,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	
 	--swatch-var-402:#E2E2E2;
 	
+	--swatch-var-6729:#BF9BDE;
+	
 }
 
 
@@ -586,19 +611,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:var(--swatch-var-2869)!important;
 }
 
-/* Button colour styles */
-
-.btn-c-2869{
-	background:var(--swatch-var-2869);
-	color:#FFFFFF!important;
-}
-.btn-c-2869:hover{
-	background:#000000!important;
-	color:#FFFFFF!important;
-}
-
 /* Bloc image backgrounds */
 
+
+/* = Custom Bric Data
+-------------------------------------------------------------- */
 
 
 /* = Additional CSS
@@ -643,6 +660,10 @@ img {
   margin-right: 10px;
   background: #C8A2C8;
   counter-increment: gallery-cell;
+}
+
+.purple-title {
+  -webkit-text-stroke: 0.75px black;
 }
 
 
