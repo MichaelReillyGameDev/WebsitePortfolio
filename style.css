@@ -616,6 +616,12 @@ url("img/Logo%20Developer.webp") 2x);
 .purple-button:hover{
 	background-color:#9B54D7;
 }
+.p-style{
+	width:100%;
+}
+.list-style{
+	width:100%;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -827,6 +833,9 @@ img {
 		font-size:18px;
 	}
 	.mt-1{
+	}
+	.btn-bloc-1-style{
+		width:46.12%;
 	}
 	
 }
