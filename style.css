@@ -293,6 +293,8 @@ button{
 }
 
 
+/* = Cards
+-------------------------------------------------------------- */
 .card-sq, .card-sq .card-header, .card-sq .card-footer{
 	border-radius:0;
 }
@@ -510,7 +512,7 @@ url("img/Logo%20Developer.webp") 2x);
 	min-height:81px;
 }
 .container-div-0-min-height{
-	min-height:77px;
+	min-height:28px;
 }
 .text-background{
 	background-color:rgba(178,178,178,0.70);
@@ -621,6 +623,15 @@ url("img/Logo%20Developer.webp") 2x);
 }
 .list-style{
 	width:100%;
+}
+.field-style{
+	height:27px;
+}
+.container-div-14926-min-height{
+	min-height:58px;
+}
+.smallert{
+	font-size:18px;
 }
 
 /* = Colour
