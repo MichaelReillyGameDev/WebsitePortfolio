@@ -111,23 +111,6 @@ nav .dropdown-menu .nav-link{color:rgba(0,0,0,0.6)!important;} /* Maintain Downd
 }
 
 
-/* Background Textures */
-
-.bloc-bg-texture::before{
-	content:"";
-	background-size: 2px 2px;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left:0;
-	right:0;
-}
-.texture-geometry-shapes::before{
-	background: url("img/texture-geometry-shapes.png");
-	background-size: 280px 280px;
-}
-
-
 /* Light theme */
 
 .d-bloc .card,.l-bloc{
@@ -248,9 +231,6 @@ button{
 	outline: none!important;
 }
 
-.btn-sq{
-	border-radius: 0px;
-}
 .a-block{
 	width:100%;
 	text-align:left;
@@ -293,8 +273,6 @@ button{
 }
 
 
-/* = Cards
--------------------------------------------------------------- */
 .card-sq, .card-sq .card-header, .card-sq .card-footer{
 	border-radius:0;
 }
@@ -493,8 +471,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 url("img/Logo%20Developer.webp") 2x);background-image: image-set(url("img/Logo%20Developer.png") 1x,
 url("img/Logo%20Developer.png") 2x,url("img/Logo%20Developer.webp") 1x,
 url("img/Logo%20Developer.webp") 2x);
-	height:auto;
-	width:100%;
 }
 .container-div-min-height{
 	min-height:104px;
@@ -512,7 +488,7 @@ url("img/Logo%20Developer.webp") 2x);
 	min-height:81px;
 }
 .container-div-0-min-height{
-	min-height:28px;
+	min-height:77px;
 }
 .text-background{
 	background-color:rgba(178,178,178,0.70);
@@ -532,10 +508,10 @@ url("img/Logo%20Developer.webp") 2x);
 }
 .h3-style{
 	width:100%;
-	font-size:23px;
+	font-size:26px;
 }
 .h3-bloc-2-style{
-	font-size:23px;
+	font-size:26px;
 }
 .h1-style{
 	width:100%;
@@ -547,7 +523,7 @@ url("img/Logo%20Developer.webp") 2x);
 	width:100%;
 }
 .btn-bloc-1-style{
-	width:33.88%;
+	width:42.42%;
 }
 .img-style{
 	width:533px;
@@ -581,60 +557,13 @@ url("img/Logo%20Developer.webp") 2x);
 	height:475px;
 }
 .link-company-style{
+	width:100%;
 	padding-top:30px;
 	padding-bottom:30px;
-	width:100%;
-	height:auto;
 }
 .purple-title{
 	color:#BF9BDE!important;
 	font-weight:bold;
-}
-.purple-title-no-line{
-	color:#8627D8!important;
-	font-weight:bold;
-}
-.black-title{
-	color:#020202!important;
-}
-.link-padding-top{
-	padding-top:18px;
-	padding-bottom:18px;
-}
-.h2-plane-repair-style{
-	line-height:35px;
-	font-size:28px;
-	width:100%;
-}
-.h4-style{
-	font-size:21px;
-}
-.h4-bloc-2-style{
-	font-size:21px;
-}
-.purple-button{
-	background-color:#8627D8;
-}
-.purple-button:hover{
-	background-color:#9B54D7;
-}
-.p-style{
-	width:100%;
-}
-.list-style{
-	width:100%;
-}
-.field-style{
-	height:27px;
-}
-.container-div-14926-min-height{
-	min-height:58px;
-}
-.smallert{
-	font-size:18px;
-}
-.img-bloc-2-style{
-	width:212px;
 }
 
 /* = Colour
@@ -649,30 +578,21 @@ url("img/Logo%20Developer.webp") 2x);
 	
 	--swatch-var-402:#E2E2E2;
 	
-	--swatch-var-6729:#BF9BDE;
-	
-	--swatch-var-3209:#BF9B13;
-	
 }
 
 
-/* Background colour styles */
-
-.bgc-1314{
-	background-color:var(--swatch-var-1314);
-}
 
 /* Text colour styles */
 
+.tc-1314{
+	color:var(--swatch-var-1314)!important;
+}
 .tc-2869{
 	color:var(--swatch-var-2869)!important;
 }
 
 /* Bloc image backgrounds */
 
-
-/* = Custom Bric Data
--------------------------------------------------------------- */
 
 
 /* = Additional CSS
@@ -720,7 +640,7 @@ img {
 }
 
 .purple-title {
-  -webkit-text-stroke: 0.66px black;
+  -webkit-text-stroke: 0.75px black;
 }
 
 
@@ -819,26 +739,6 @@ img {
 	}
 	.mt-md-4{
 	}
-	.btn-bloc-1-style{
-		width:21.04%;
-	}
-	.h4-style{
-		font-size:17px;
-	}
-	.h4-bloc-2-style{
-		font-size:17px;
-	}
-	.navbar-logo{
-		background-size:contain;
-		background-repeat:no-repeat;
-	}
-	
-}
-
-@media (max-width: 767px){
-	.btn-bloc-1-style{
-		width:25%;
-	}
 	
 }
 
@@ -847,9 +747,6 @@ img {
 		font-size:18px;
 	}
 	.mt-1{
-	}
-	.btn-bloc-1-style{
-		width:46.12%;
 	}
 	
 }
